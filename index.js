@@ -35,28 +35,29 @@ process.env["MAIL"] = 'ux34@qq.com';
     //、、、、&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //原本let info = JSON.parse(process.env["INFO"]);
       var xxxxx = Math.floor((Math.random() * 7) + 1);
+     let info = JSON.parse(process.env["INFO1"]);
     switch(xxxxx)
     {
       case 1:
-        let info = JSON.parse(process.env["INFO1"]);
+        info = JSON.parse(process.env["INFO1"]);
         break;
       case 2:
-         let info = JSON.parse(process.env["INFO2"]);
+        info = JSON.parse(process.env["INFO2"]);
         break;
       case 3: 
-        let info = JSON.parse(process.env["INFO3"]);  
+        info = JSON.parse(process.env["INFO3"]);  
         break;
       case 4: 
-        let info = JSON.parse(process.env["INFO4"]);  
+        info = JSON.parse(process.env["INFO4"]);  
         break;
       case 5:
-        let info = JSON.parse(process.env["INFO5"]);  
+       info = JSON.parse(process.env["INFO5"]);  
         break;
       case 6: 
-        let info = JSON.parse(process.env["INFO6"]);   
+       info = JSON.parse(process.env["INFO6"]);   
         break;
       default: 
-        let info = JSON.parse(process.env["INFO7"]); 
+        info = JSON.parse(process.env["INFO7"]); 
         break;
     }
     ///&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
