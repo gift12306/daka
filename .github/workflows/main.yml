@@ -34,7 +34,13 @@ jobs:
     # 配置环境变量给js读取，执行js文件
     - name: Run sign
       env:
-        INFO: ${{ secrets.INFO }}
-        MAIL: ${{ secrets.MAIL }}
+         INFO1: ${{ secrets.INFO1 }}
+         INFO2: ${{ secrets.INFO2 }}
+         INFO3: ${{ secrets.INFO3 }}
+         INFO4: ${{ secrets.INFO4 }}
+         INFO5: ${{ secrets.INFO5 }}
+         INFO6: ${{ secrets.INFO6 }}
+         INFO7: ${{ secrets.INFO7 }}
+         MAIL: ${{ secrets.MAIL }}
       run: node index.js
                 
