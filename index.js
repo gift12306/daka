@@ -39,18 +39,25 @@ process.env["MAIL"] = 'ux34@qq.com';
     {
       case 1:
         let info = JSON.parse(process.env["INFO1"]);
+        break;
       case 2:
          let info = JSON.parse(process.env["INFO2"]);
+        break;
       case 3: 
-        let info = JSON.parse(process.env["INFO3"]);
+        let info = JSON.parse(process.env["INFO3"]);  
+        break;
       case 4: 
-        let info = JSON.parse(process.env["INFO4"]);
+        let info = JSON.parse(process.env["INFO4"]);  
+        break;
       case 5:
-        let info = JSON.parse(process.env["INFO5"]);
+        let info = JSON.parse(process.env["INFO5"]);  
+        break;
       case 6: 
-        let info = JSON.parse(process.env["INFO6"]);
+        let info = JSON.parse(process.env["INFO6"]);   
+        break;
       default: 
-        let info = JSON.parse(process.env["INFO7"]);
+        let info = JSON.parse(process.env["INFO7"]); 
+        break;
     }
     ///&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     // 默认为0：离校不在厦门
