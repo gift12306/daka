@@ -32,7 +32,27 @@ process.env["MAIL"] = 'ux34@qq.com';
   }
   try {
     // 解析环境变量中的JSON字符串
-    let info = JSON.parse(process.env["INFO"]);
+    //、、、、&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    //原本let info = JSON.parse(process.env["INFO"]);
+      var xxxxx = Math.floor((Math.random() * 7) + 1);
+    switch(xxxxx)
+    {
+      case 1:
+        let info = JSON.parse(process.env["INFO1"]);
+      case 2:
+         let info = JSON.parse(process.env["INFO2"]);
+      case 3: 
+        let info = JSON.parse(process.env["INFO3"]);
+      case 4: 
+        let info = JSON.parse(process.env["INFO4"]);
+      case 5:
+        let info = JSON.parse(process.env["INFO5"]);
+      case 6: 
+        let info = JSON.parse(process.env["INFO6"]);
+      default: 
+        let info = JSON.parse(process.env["INFO7"]);
+    }
+    ///&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     // 默认为0：离校不在厦门
     // 开学将默认更新为2：在校
     if (info['类型'] === undefined) {
