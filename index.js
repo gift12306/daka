@@ -36,6 +36,7 @@ process.env["MAIL"] = 'ux34@qq.com';
     //原本let info = JSON.parse(process.env["INFO"]);
       var xxxxx = Math.floor((Math.random() * 7) + 1);
      let info = JSON.parse(process.env["INFO1"]);
+    /*
     switch(xxxxx)
     {
       case 1:
@@ -61,7 +62,9 @@ process.env["MAIL"] = 'ux34@qq.com';
         break;
     }
     ///&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-    // 默认为0：离校不在厦门
+   */
+   
+   // 默认为0：离校不在厦门
     // 开学将默认更新为2：在校
     if (info['类型'] === undefined) {
       info['类型'] = 0
